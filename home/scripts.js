@@ -10,7 +10,7 @@ function validarEmail(email) {
 
 button.addEventListener(`click`, function(ev){
     const email = document.getElementById(`email`).value
-    ev.preventDefault()
+
     
     validarEmail(email)
     if (validarEmail(email)) {
