@@ -35,7 +35,7 @@ body {
   width: 80%;
   height: 70vh;
   border-radius: 15px;
-  background-image: url(/newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-desktop.svg);
+  /* background-image: url(/newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-desktop.svg); */
   background-size: cover;
 }
 
