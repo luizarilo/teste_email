@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(234, 29%, 20%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  background-color: hsl(0, 0%, 100%);
+  width: 60%;
+  height: 500px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.information-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  color: hsl(234, 29%, 20%);
+}
+
+.image {
+  width: 80%;
+  height: 70vh;
+  border-radius: 15px;
+  background-image: url(/newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-desktop.svg);
+  background-size: cover;
+}
+
+.image-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20px;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.image-topic {
+  padding-right: 20px;
+}
+
+.text-container {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  padding-bottom: 15px;
+  padding-left: 35px;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-left: 35px;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-email {
+  border: 1px solid hsl(231, 7%, 60%);
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.btn-submit {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: hsl(234, 29%, 20%);
+  font-size: 12px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  border: none;
+}
+
+.input-email:hover {
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-image: linear-gradient(to right, #FC5277, hsl(4, 100%, 67%));
+}
+
+.input-information {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: 700;
+  justify-content: space-between;
+  height: 3vh;
+}
+
+.error {
+  font-size: 10px;
+  color: hsl(4, 100%, 67%);
+  display: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
